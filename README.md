@@ -1,12 +1,12 @@
 msp430-gcc-4.7.3
 ================
+Compiled binary packages of MSP430-GCC version 4.7.3
 
-Bin file for msp430 gcc 4.7.3 
-Binary packages for MSP430-GCC version 4.7.3
-INSTALL Ready for x64 linux (ubuntu) machines
+Compatible Machine:
+ - x64 based linux machines
 
-1. Extract the tar in any location: (/opt/compilers/mspgcc-4.7.3)
-2. Add PATH MSP430/bin path to your environment 
-2.1 edit HOME/.bashrc and copy the following lines at the end of the file
-
-    export PATH=$PATH:/opt/compilers/mspgcc-4.7.3/bin
+Installation Instructions:
+ - Extract the tar in a location: example (/opt/compilers/mspgcc-4.7.3/)
+ - Add the location of extracted binary file path (/opt/compilers/mspgcc-4.7.3/MSP430/bin/) path to your systems' enviroment $PATH
+ - edit $HOME/.bashrc and add the following line at the end of the file.
+    - export PATH=$PATH:/opt/compilers/mspgcc-4.7.3/bin
